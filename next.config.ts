@@ -28,6 +28,12 @@ const nextConfig: NextConfig = {
         hostname: 'skatesgarage.cc',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.discordapp.net',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

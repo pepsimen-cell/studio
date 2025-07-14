@@ -51,6 +51,18 @@ export const products = [
     ],
   },
   {
+    id: "prod-fortnite-slotted",
+    name: "Fortnite Slotted",
+    description: "Gain a competitive edge with our limited-slot Fortnite solution.",
+    image: "https://media.discordapp.net/attachments/1394207576505454713/1394224089685819422/image.png?ex=687607de&is=6874b65e&hm=cceb7c17d641a9813e41724cf27239457df2fa8e9c3b2fa135294649c3e00311&=&format=webp&quality=lossless",
+    dataAiHint: "abstract technology",
+    features: [
+      { icon: "shield" as keyof typeof Icons, text: "Slotted Access for Enhanced Security" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Advanced Undetected Features" },
+      { icon: "zap" as keyof typeof Icons, text: "Instant and Reliable Access" },
+    ],
+  },
+  {
     id: "prod-bo6-unlocker",
     name: "BO6 Unlocker",
     description: "Unlock all in-game items, camos, and operators in Black Ops 6 instantly.",
