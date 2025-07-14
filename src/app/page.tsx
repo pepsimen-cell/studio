@@ -70,7 +70,7 @@ export default function SkatesGarageApp() {
             className="h-8 w-8"
             unoptimized
           />
-          <h1 className="text-2xl font-bold text-primary hidden lg:block ml-2">
+          <h1 className="text-2xl font-bold text-foreground hidden lg:block ml-2">
             Skate's Garage
           </h1>
         </div>
@@ -100,7 +100,7 @@ export default function SkatesGarageApp() {
               className="h-8 w-8"
               unoptimized
             />
-            <h1 className="text-2xl font-bold text-primary ml-2">
+            <h1 className="text-2xl font-bold text-foreground ml-2">
               Skate's Garage
             </h1>
           </div>
