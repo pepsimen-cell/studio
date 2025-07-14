@@ -41,7 +41,7 @@ export const products = [
     id: "prod-private",
     name: "Fortnite Private",
     description: "Essential details about our flagship private solution.",
-    image: "https://skatesgarage.cc/images/fortnite%20private.png",
+    image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224088641441873/image.png?ex=687607de&is=6874b65e&hm=c13aaea389c3f36fa460ad94ec65fa1a91ed09e35a3239ae98ed0ca40983e166&",
     dataAiHint: "abstract tech",
     features: [
       { icon: "shield" as keyof typeof Icons, text: "Private & Secure - Strict Invite-Only Access & Advanced Encryption" },
@@ -65,7 +65,7 @@ export const products = [
     id: "prod-kernel-unban",
     name: "Kernel Unban",
     description: "Permanent hardware ID unban solution using advanced kernel-level techniques.",
-    image: "https://skatesgarage.cc/images/permanent%20spoofer.png",
+    image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224089258004571/image.png?ex=687607de&is=6874b65e&hm=fe2baca493a2c6c39b09b416a3ed7156fbe1987bae5d33722178e34cb8e5c872&",
     dataAiHint: "data unlock",
     features: [
       { icon: "cpu" as keyof typeof Icons, text: "Kernel-Level Spoofing" },
@@ -78,7 +78,7 @@ export const products = [
     id: "prod-temp-unban",
     name: "Temp Unban",
     description: "Temporarily bypass your hardware ID ban to get back in the game quickly.",
-    image: "https://skatesgarage.cc/images/temporary%20spoofer.png",
+    image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224088976982036/image.png?ex=687607de&is=6874b65e&hm=bfe56e872a2dce6571245cb3513c61a2bb9a03156adc40d64e6619691569af33&",
     dataAiHint: "timer clock",
     features: [
       { icon: "zap" as keyof typeof Icons, text: "Quick Temporary Unban" },
