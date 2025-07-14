@@ -111,22 +111,6 @@ export const products = [
       },
     ],
   },
-  {
-    id: "prod-valorant",
-    name: "Valorant Sentinel",
-    description: "Precision and stealth for Valorant.",
-    image: "https://placehold.co/600x400.png",
-    dataAiHint: "neon grid",
-    features: [
-      { icon: "shield" as keyof typeof Icons, text: "Triggerbot & Aimbot" },
-      { icon: "zap" as keyof typeof Icons, text: "Agent & Spike ESP" },
-      { icon: "cpu" as keyof typeof Icons, text: "Stream-proof Overlay" },
-      {
-        icon: "fingerprint" as keyof typeof Icons,
-        text: "Minimal Performance Impact",
-      },
-    ],
-  },
 ];
 
 export type Product = (typeof products)[0];
