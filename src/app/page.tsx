@@ -86,7 +86,7 @@ export default function SkatesGarageApp() {
             <Button
               key={item.id}
               variant={view === item.id ? "secondary" : "ghost"}
-              className="w-full justify-center lg:justify-start"
+              className="w-full justify-center lg:justify-start h-12"
               onClick={() => handleNavClick(item.id as View)}
             >
               <item.icon className="h-6 w-6 lg:mr-4" />
