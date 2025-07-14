@@ -45,7 +45,7 @@ export const products = [
     dataAiHint: "abstract tech",
     features: [
       { icon: "zap" as keyof typeof Icons, text: "Toggle Aimbot (Activate/Deactivate)" },
-      { icon: "wrench" as keyof typeof Icons, text: "Adjustable Smoothing for personalized aiming feel" },
+      { icon: "wrench" as keyof typeof Icons, text: "Adjustable Smoothing" },
       { icon: "fingerprint" as keyof typeof Icons, text: "Comprehensive Player ESP" },
       { icon: "cpu" as keyof typeof Icons, text: "Customizable ESP Colors" },
       { icon: "package" as keyof typeof Icons, text: "...and many more powerful features" },
