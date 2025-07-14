@@ -81,26 +81,6 @@ export const services = [
 
 export const products = [
   {
-    id: "prod-dma",
-    name: "Fortnite DMA",
-    description:
-      "Direct Memory Access cheat for ultimate performance and security.",
-    image: "https://placehold.co/600x400.png",
-    dataAiHint: "circuit board",
-    features: [
-      { icon: "cpu" as keyof typeof Icons, text: "Kernel Level Security" },
-      { icon: "zap" as keyof typeof Icons, text: "Lightning Fast ESP" },
-      {
-        icon: "fingerprint" as keyof typeof Icons,
-        text: "Undetected Since Release",
-      },
-      {
-        icon: "shield" as keyof typeof Icons,
-        text: "Hardware Spoofing Included",
-      },
-    ],
-  },
-  {
     id: "prod-private",
     name: "Fortnite Private",
     description: "Our flagship private cheat with all features included.",
