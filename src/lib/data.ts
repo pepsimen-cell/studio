@@ -70,7 +70,7 @@ export const products = [
   },
   {
     id: "prod-kernel-unban",
-    name: "Kernel Unban",
+    name: "Perm Spoofer",
     description: "Permanently bypass your HWID ban.",
     image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224089258004571/image.png?ex=687607de&is=6874b65e&hm=fe2baca493a2c6c39b09b416a3ed7156fbe1987bae5d33722178e34cb8e5c872&",
     dataAiHint: "data unlock",
@@ -83,7 +83,7 @@ export const products = [
   },
   {
     id: "prod-temp-unban",
-    name: "Temp Unban",
+    name: "Temp Spoofer",
     description: "Temporarily bypass your HWID ban.",
     image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224088976982036/image.png?ex=687607de&is=6874b65e&hm=bfe56e872a2dce6571245cb3513c61a2bb9a03156adc40d64e6619691569af33&",
     dataAiHint: "timer clock",
