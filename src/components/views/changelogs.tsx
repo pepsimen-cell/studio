@@ -28,32 +28,36 @@ export function ChangelogsView() {
     <div className="space-y-8">
       <h1 className="text-2xl md:text-3xl font-bold">Changelogs</h1>
       <Separator />
-      <Accordion type="single" collapsible defaultValue={changelogs[0]?.id}>
-        {changelogs.map((log) => (
-          <AccordionItem key={log.id} value={log.id}>
-            <AccordionTrigger className="text-lg">
-              <div className="flex items-center gap-4">
-                <span>{log.version}</span>
-                <span className="text-sm text-muted-foreground">{log.date}</span>
-              </div>
-            </AccordionTrigger>
-            <AccordionContent>
-              <ul className="space-y-2 pl-4">
-                {log.changes.map((change, index) => (
-                  <li key={index} className="flex items-start gap-4">
-                    <Badge variant={getBadgeVariant(change.type)} className="mt-1">
-                      {change.type}
-                    </Badge>
-                    <span className="text-foreground/80">
-                      {change.description}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
+      {changelogs.length > 0 ? (
+        <Accordion type="single" collapsible defaultValue={changelogs[0]?.id}>
+          {changelogs.map((log) => (
+            <AccordionItem key={log.id} value={log.id}>
+              <AccordionTrigger className="text-lg">
+                <div className="flex items-center gap-4">
+                  <span>{log.version}</span>
+                  <span className="text-sm text-muted-foreground">{log.date}</span>
+                </div>
+              </AccordionTrigger>
+              <AccordionContent>
+                <ul className="space-y-2 pl-4">
+                  {log.changes.map((change, index) => (
+                    <li key={index} className="flex items-start gap-4">
+                      <Badge variant={getBadgeVariant(change.type)} className="mt-1">
+                        {change.type}
+                      </Badge>
+                      <span className="text-foreground/80">
+                        {change.description}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      ) : (
+        <p className="text-muted-foreground">No changelogs have been posted yet.</p>
+      )}
     </div>
   );
 }

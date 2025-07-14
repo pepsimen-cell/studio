@@ -2,13 +2,6 @@ import type { Icons } from "@/components/icons";
 
 export const announcements = [
   {
-    id: "announcement-2",
-    title: "Testing",
-    date: "2025-07-15",
-    content:
-      "testing",
-  },
-  {
     id: "announcement-1",
     title: "Welcome to Our New Website!",
     date: "2025-07-14",
