@@ -119,7 +119,7 @@ export default function SkatesGarageApp() {
       </aside>
 
       <div className="flex-1 flex flex-col overflow-hidden">
-        <header className="flex md:hidden items-center justify-center h-14 border-b border-border bg-card">
+        <header className="fixed top-0 left-0 right-0 z-30 flex md:hidden items-center justify-center h-14 border-b border-border bg-card">
           <div className="flex items-center">
             <Image
               src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
@@ -137,7 +137,7 @@ export default function SkatesGarageApp() {
         <main className="flex-1 flex overflow-hidden relative">
           <div
             key={view}
-            className="flex-1 overflow-y-auto p-4 md:p-8 fade-in-up"
+            className="flex-1 overflow-y-auto p-4 pt-20 pb-20 md:p-8 md:pt-8 md:pb-8 fade-in-up"
           >
             <CurrentView />
           </div>
@@ -152,7 +152,7 @@ export default function SkatesGarageApp() {
             onTouchEnd={handleTouchEnd}
           >
             {selectedProduct && (
-              <div className="fade-in-up">
+              <div className="fade-in-up h-full">
                 <ProductDetailsView
                   product={selectedProduct}
                   onClose={() => setSelectedProduct(null)}
@@ -162,7 +162,7 @@ export default function SkatesGarageApp() {
           </aside>
         </main>
 
-        <footer className="md:hidden flex justify-around p-2 bg-card border-t border-border">
+        <footer className="fixed bottom-0 left-0 right-0 z-30 md:hidden flex justify-around p-2 bg-card border-t border-border">
           {navItems.map((item) => (
             <Button
               key={item.id}
