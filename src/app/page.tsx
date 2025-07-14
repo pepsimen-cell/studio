@@ -61,16 +61,16 @@ export default function SkatesGarageApp() {
   return (
     <div className="flex h-screen w-full overflow-hidden">
       <aside className="w-20 lg:w-64 bg-card flex-col border-r border-border hidden md:flex">
-        <div className="flex items-center justify-center lg:justify-start lg:pl-4 h-16 border-b border-border">
+        <div className="flex items-center justify-center lg:justify-start lg:pl-4 h-14 border-b border-border">
           <Image
             src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
             alt="Skate's Garage Logo"
-            width={32}
-            height={32}
-            className="h-8 w-8"
+            width={28}
+            height={28}
+            className="h-7 w-7"
             unoptimized
           />
-          <h1 className="text-2xl font-bold text-foreground hidden lg:block ml-2">
+          <h1 className="text-xl font-bold text-foreground hidden lg:block ml-2">
             Skate's Garage
           </h1>
         </div>
@@ -90,23 +90,23 @@ export default function SkatesGarageApp() {
       </aside>
 
       <div className="flex-1 flex flex-col overflow-hidden">
-        <header className="flex md:hidden items-center justify-center h-16 border-b border-border bg-card">
+        <header className="flex md:hidden items-center justify-center h-14 border-b border-border bg-card">
           <div className="flex items-center">
             <Image
               src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
               alt="Skate's Garage Logo"
-              width={32}
-              height={32}
-              className="h-8 w-8"
+              width={28}
+              height={28}
+              className="h-7 w-7"
               unoptimized
             />
-            <h1 className="text-2xl font-bold text-foreground ml-2">
+            <h1 className="text-xl font-bold text-foreground ml-2">
               Skate's Garage
             </h1>
           </div>
         </header>
         <main className="flex-1 flex overflow-hidden relative">
-          <div className="flex-1 overflow-y-auto p-4 md:p-8 pb-24">
+          <div className="flex-1 overflow-y-auto p-4 md:p-8">
             <CurrentView />
           </div>
 
