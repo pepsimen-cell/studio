@@ -42,41 +42,41 @@
     --status-offline: 0 75% 55%;
   }
   .dark {
-    --background: 0 80% 4%; /* Very dark red, almost black */
-    --foreground: 0 0% 98%; /* White */
-    --card: 0 70% 8%; /* Dark red */
-    --card-foreground: 0 0% 98%; /* White */
-    --popover: 0 80% 4%; /* Very dark red */
-    --popover-foreground: 0 0% 98%; /* White */
-    --primary: 0 100% 50%; /* Bright Red */
-    --primary-foreground: 0 0% 100%; /* White */
-    --secondary: 0 90% 60%; /* Lighter Red */
-    --secondary-foreground: 0 0% 100%; /* White */
-    --muted: 0 80% 20%; /* Muted dark red */
-    --muted-foreground: 0 0% 60%; /* Lighter text for muted */
-    --accent: 0 90% 55%; /* Accent red */
-    --accent-foreground: 0 0% 100%; /* White */
-    --destructive: 0 72% 51%; /* Destructive red */
-    --destructive-foreground: 0 0% 100%; /* White */
-    --border: 0 80% 25%; /* Reddish border */
-    --input: 0 80% 25%; /* Reddish input background */
-    --ring: 0 100% 50%; /* Bright Red */
-    --chart-1: 0 70% 50%;
-    --chart-2: 0 60% 45%;
-    --chart-3: 0 80% 55%;
-    --chart-4: 0 65% 60%;
-    --chart-5: 0 75% 55%;
-    --sidebar-background: 0 70% 8%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 0 100% 50%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 80% 20%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 0 80% 25%;
-    --sidebar-ring: 0 100% 50%;
-    --status-online: 120 73% 47%;
-    --status-maintenance: 45 93% 47%;
-    --status-offline: 0 100% 50%;
+    --background: 195 53% 7%; /* Dark Aqua */
+    --foreground: 210 40% 98%; /* White */
+    --card: 195 53% 11%; /* Slightly lighter Dark Aqua */
+    --card-foreground: 210 40% 98%; /* White */
+    --popover: 195 53% 7%; /* Dark Aqua */
+    --popover-foreground: 210 40% 98%; /* White */
+    --primary: 205 90% 61%; /* Light Blue */
+    --primary-foreground: 210 40% 9.8%; /* Dark Blue text for contrast */
+    --secondary: 180 82% 35%; /* Aqua */
+    --secondary-foreground: 210 40% 98%; /* White */
+    --muted: 180 82% 25%; /* Muted Aqua */
+    --muted-foreground: 210 40% 62.9%; /* Lighter text for muted */
+    --accent: 190 95% 45%; /* A vibrant Aqua for accents */
+    --accent-foreground: 210 40% 98%; /* White */
+    --destructive: 0 63% 31%; /* Maintained a reddish tone for destructive */
+    --destructive-foreground: 210 40% 98%; /* White */
+    --border: 195 53% 18%; /* Dark Aqua border */
+    --input: 195 53% 18%; /* Dark Aqua input background */
+    --ring: 205 90% 61%; /* Light Blue for rings */
+    --chart-1: 205 90% 61%;
+    --chart-2: 180 82% 45%;
+    --chart-3: 190 95% 55%;
+    --chart-4: 200 80% 50%;
+    --chart-5: 175 75% 40%;
+    --sidebar-background: 195 53% 11%;
+    --sidebar-foreground: 210 40% 95%;
+    --sidebar-primary: 205 90% 61%;
+    --sidebar-primary-foreground: 210 40% 9.8%;
+    --sidebar-accent: 180 82% 25%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 195 53% 18%;
+    --sidebar-ring: 205 90% 61%;
+    --status-online: 140 73% 47%; /* Brighter Green */
+    --status-maintenance: 45 93% 47%; /* Orange */
+    --status-offline: 0 80% 55%; /* Red */
   }
 }
 
