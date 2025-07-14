@@ -1,4 +1,4 @@
-import { getChangelogs } from "@/ai/flows/changelogs-flow";
+import { changelogs } from "@/lib/data";
 import {
   Accordion,
   AccordionContent,
@@ -8,9 +8,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "../ui/separator";
 
-export async function ChangelogsView() {
-  const { changelogs } = await getChangelogs();
-  
+export function ChangelogsView() {
   const getBadgeVariant = (
     type: string
   ): "default" | "secondary" | "destructive" | "outline" => {

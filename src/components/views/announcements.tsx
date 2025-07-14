@@ -6,10 +6,9 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { getAnnouncements } from "@/ai/flows/announcements-flow";
+import { announcements } from "@/lib/data";
 
-export async function AnnouncementsView() {
-  const { announcements } = await getAnnouncements();
+export function AnnouncementsView() {
   return (
     <div className="space-y-8">
       <h1 className="text-3xl font-bold">Announcements</h1>

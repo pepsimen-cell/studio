@@ -99,9 +99,7 @@ export default function SkatesGarageApp() {
       <div className="flex-1 flex flex-col overflow-hidden">
         <main className="flex-1 flex overflow-hidden relative">
           <div className="flex-1 overflow-y-auto p-4 md:p-8">
-            <React.Suspense fallback={<div>Loading...</div>}>
-              <CurrentView />
-            </React.Suspense>
+            <CurrentView />
           </div>
 
           <aside
