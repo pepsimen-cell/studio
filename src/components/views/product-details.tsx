@@ -55,7 +55,7 @@ export function ProductDetailsView({
         </div>
         
         <a
-          href="https://skatesgarage.cc/"
+          href="https://discord.gg/fatalxservices"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6"
