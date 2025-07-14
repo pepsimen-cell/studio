@@ -120,10 +120,12 @@ export default function SkatesGarageApp() {
             )}
           >
             {selectedProduct && (
-              <ProductDetailsView
-                product={selectedProduct}
-                onClose={() => setSelectedProduct(null)}
-              />
+              <div className="fade-in-up">
+                <ProductDetailsView
+                  product={selectedProduct}
+                  onClose={() => setSelectedProduct(null)}
+                />
+              </div>
             )}
           </aside>
         </main>
