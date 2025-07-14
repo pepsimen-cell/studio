@@ -58,9 +58,14 @@ export const products = [
     image: "https://media.discordapp.net/attachments/1394207576505454713/1394224089685819422/image.png?ex=687607de&is=6874b65e&hm=cceb7c17d641a9813e41724cf27239457df2fa8e9c3b2fa135294649c3e00311&=&format=webp&quality=lossless",
     dataAiHint: "abstract technology",
     features: [
-      { icon: "shield" as keyof typeof Icons, text: "Slotted Access for Enhanced Security" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Advanced Undetected Features" },
-      { icon: "zap" as keyof typeof Icons, text: "Instant and Reliable Access" },
+      { icon: "shield" as keyof typeof Icons, text: "Undetected & Private Build" },
+      { icon: "zap" as keyof typeof Icons, text: "Aimbot with Smoothness" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Unique Loader Build for every User" },
+      { icon: "cpu" as keyof typeof Icons, text: "Performance Optimized" },
+      { icon: "wrench" as keyof typeof Icons, text: "Built-in Controller Support" },
+      { icon: "shield" as keyof typeof Icons, text: "Fully Undetected and secure" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Inbuilt Tournament Spoofer" },
+      { icon: "zap" as keyof typeof Icons, text: "Competitive Ready - optimized for legit gameplay" },
     ],
   },
   {
