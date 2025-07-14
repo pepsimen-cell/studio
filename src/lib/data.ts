@@ -146,7 +146,7 @@ export const products = [
     id: "prod-bo6-external",
     name: "BO6 External",
     description: "External cheat for Black Ops 6, focused on safety and ease of use.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://skatesgarage.cc/images/SkatesBO6External.png",
     dataAiHint: "radar screen",
     features: [
       { icon: "shield" as keyof typeof Icons, text: "External Overlay ESP" },
