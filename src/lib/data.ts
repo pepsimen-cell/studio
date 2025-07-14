@@ -45,14 +45,12 @@ export const products = [
     image: "https://skatesgarage.cc/images/fortnite%20private.png",
     dataAiHint: "abstract tech",
     features: [
-      { icon: "shield" as keyof typeof Icons, text: "Easy & Detailed Setup" },
       { icon: "shield" as keyof typeof Icons, text: "Strict Invite-Only Access" },
       { icon: "shield" as keyof typeof Icons, text: "Advanced Encryption" },
       { icon: "fingerprint" as keyof typeof Icons, text: "Dynamic Injection Method" },
       { icon: "fingerprint" as keyof typeof Icons, text: "Kernel-Level Security" },
       { icon: "zap" as keyof typeof Icons, text: "Affordable Plans" },
       { icon: "zap" as keyof typeof Icons, text: "Spontaneous Delivery" },
-      { icon: "zap" as keyof typeof Icons, text: "Multiple Secure Payments" },
     ],
   },
   {
@@ -62,10 +60,9 @@ export const products = [
     image: "https://cdn.discordapp.com/attachments/1330236077843288145/1351629865404862484/box_1.gif?ex=6875fb27&is=6874a9a7&hm=db18afba6085714f992edaee0f4f419a37e712731c3ed2cabfe99e8d25f74041&",
     dataAiHint: "video game soldier",
     features: [
-      { icon: "zap" as keyof typeof Icons, text: "Instant Unlock All" },
-      { icon: "shield" as keyof typeof Icons, text: "Safe & Secure Process" },
-      { icon: "cpu" as keyof typeof Icons, text: "Works for All Game Versions" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Undetectable by Game Client" },
+      { icon: "wrench" as keyof typeof Icons, text: "Constantly Updated - Automatically Updates" },
+      { icon: "shield" as keyof typeof Icons, text: "Private & Secure - Encrypted Anonymity" },
+      { icon: "cpu" as keyof typeof Icons, text: "Kernel-level Security - Operates at the highest level" },
     ],
   },
   {

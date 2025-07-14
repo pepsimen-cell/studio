@@ -10,6 +10,7 @@ import {
   Fingerprint,
   Zap,
   X,
+  Wrench,
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -25,4 +26,5 @@ export const Icons = {
   fingerprint: Fingerprint,
   zap: Zap,
   close: X,
+  wrench: Wrench,
 };
