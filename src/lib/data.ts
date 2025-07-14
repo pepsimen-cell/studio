@@ -104,7 +104,7 @@ export const products = [
     id: "prod-private",
     name: "Fortnite Private",
     description: "Our flagship private cheat with all features included.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://skatesgarage.cc/images/fortnite%20private.png",
     dataAiHint: "abstract tech",
     features: [
       { icon: "shield" as keyof typeof Icons, text: "Advanced Aimbot" },
@@ -114,19 +114,6 @@ export const products = [
         icon: "fingerprint" as keyof typeof Icons,
         text: "Built-in Anti-Cheat Bypass",
       },
-    ],
-  },
-  {
-    id: "prod-fortnite-slotted",
-    name: "Fortnite Slotted",
-    description: "Limited slot cheat for Fortnite, ensuring maximum privacy and security.",
-    image: "https://placehold.co/600x400.png",
-    dataAiHint: "fortnite game",
-    features: [
-      { icon: "shield" as keyof typeof Icons, text: "Exclusive Slot Access" },
-      { icon: "zap" as keyof typeof Icons, text: "High-Performance Aimbot & ESP" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Stealth Anti-Cheat Evasion" },
-      { icon: "cpu" as keyof typeof Icons, text: "Optimized for Low System Impact" },
     ],
   },
   {
@@ -159,7 +146,7 @@ export const products = [
     id: "prod-kernel-unban",
     name: "Kernel Unban",
     description: "Permanent hardware ID unban solution using advanced kernel-level techniques.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://skatesgarage.cc/images/permanent%20spoofer.png",
     dataAiHint: "data unlock",
     features: [
       { icon: "cpu" as keyof typeof Icons, text: "Kernel-Level Spoofing" },
@@ -172,7 +159,7 @@ export const products = [
     id: "prod-temp-unban",
     name: "Temp Unban",
     description: "Temporarily bypass your hardware ID ban to get back in the game quickly.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://skatesgarage.cc/images/temporary%20spoofer.png",
     dataAiHint: "timer clock",
     features: [
       { icon: "zap" as keyof typeof Icons, text: "Quick Temporary Unban" },
