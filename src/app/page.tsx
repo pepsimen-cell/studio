@@ -122,7 +122,7 @@ export default function SkatesGarageApp() {
             <Button
               key={item.id}
               variant={view === item.id ? "secondary" : "ghost"}
-              className="flex-col h-16 flex-1 rounded-lg"
+              className="flex-col h-16 w-24 flex-1 rounded-lg"
               onClick={() => handleNavClick(item.id as View)}
             >
               <item.icon className="h-6 w-6 mb-1" />
