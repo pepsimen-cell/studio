@@ -44,9 +44,11 @@ export const products = [
     image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224088641441873/image.png?ex=687607de&is=6874b65e&hm=c13aaea389c3f36fa460ad94ec65fa1a91ed09e35a3239ae98ed0ca40983e166&",
     dataAiHint: "abstract tech",
     features: [
-      { icon: "shield" as keyof typeof Icons, text: "Private & Secure - Strict Invite-Only Access & Advanced Encryption" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Undetectable Technology - Dynamic Injection Method & Kernel-Level Security" },
-      { icon: "zap" as keyof typeof Icons, text: "Pricing & Access - Affordable Plans & Spontaneous Delivery" },
+      { icon: "zap" as keyof typeof Icons, text: "Toggle Aimbot (Activate/Deactivate)" },
+      { icon: "wrench" as keyof typeof Icons, text: "Adjustable Smoothing for personalized aiming feel" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Comprehensive Player ESP" },
+      { icon: "cpu" as keyof typeof Icons, text: "Customizable ESP Colors" },
+      { icon: "package" as keyof typeof Icons, text: "...and many more powerful features" },
     ],
   },
   {
