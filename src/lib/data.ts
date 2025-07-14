@@ -4,7 +4,7 @@ export const announcements = [
   {
     id: "announcement-1",
     title: "Welcome to Our New Website!",
-    date: "2024-07-29",
+    date: "2024-07-30",
     content:
       "We are excited to launch our new official website. Here you can find product information, status updates, and announcements all in one place.",
   },
@@ -14,7 +14,7 @@ export const changelogs = [
   {
     id: "changelog-1",
     version: "v1.0.0",
-    date: "2024-07-29",
+    date: "2024-07-30",
     changes: [
       {
         type: "Added",
