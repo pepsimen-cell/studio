@@ -41,7 +41,7 @@ export const products = [
   {
     id: "prod-private",
     name: "Fortnite Private",
-    description: "Our flagship private cheat with all features included.",
+    description: "Essential details about our flagship private solution.",
     image: "https://skatesgarage.cc/images/fortnite%20private.png",
     dataAiHint: "abstract tech",
     features: [
