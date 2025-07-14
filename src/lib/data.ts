@@ -75,10 +75,9 @@ export const products = [
     image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224089258004571/image.png?ex=687607de&is=6874b65e&hm=fe2baca493a2c6c39b09b416a3ed7156fbe1987bae5d33722178e34cb8e5c872&",
     dataAiHint: "data unlock",
     features: [
-      { icon: "cpu" as keyof typeof Icons, text: "Kernel-Level Spoofing" },
-      { icon: "shield" as keyof typeof Icons, text: "Permanent Ban Removal" },
-      { icon: "zap" as keyof typeof Icons, text: "Works on Major Anti-Cheats" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "One-Click Unban Process" },
+      { icon: "wrench" as keyof typeof Icons, text: "Built-in Cleaning System" },
+      { icon: "cpu" as keyof typeof Icons, text: "HP Unlock - Full support for HP motherboards" },
+      { icon: "shield" as keyof typeof Icons, text: "Disk Fixer - Temporary solution for disk serials" },
     ],
   },
   {
