@@ -13,36 +13,12 @@ export const announcements = [
 export const changelogs = [
   {
     id: "changelog-1",
-    version: "v2.5.1",
-    date: "2024-07-27",
-    changes: [
-      {
-        type: "Fixed",
-        description:
-          "Resolved a critical issue with the aimbot module in the DMA cheat.",
-      },
-      {
-        type: "Improved",
-        description: "Enhanced ESP performance for lower-end systems.",
-      },
-      {
-        type: "Added",
-        description: "New skin changer feature added to the Private cheat.",
-      },
-    ],
-  },
-  {
-    id: "changelog-2",
-    version: "v2.5.0",
-    date: "2024-07-15",
+    version: "v1.0.0",
+    date: "2024-07-29",
     changes: [
       {
         type: "Added",
-        description: "Initial release of the Fortnite Private cheat.",
-      },
-      {
-        type: "Improved",
-        description: "Overall stability and anti-cheat bypass mechanisms.",
+        description: "Created new website.",
       },
     ],
   },
