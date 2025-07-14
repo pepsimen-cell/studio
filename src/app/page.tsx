@@ -61,7 +61,7 @@ export default function SkatesGarageApp() {
   return (
     <div className="flex h-screen w-full overflow-hidden">
       <aside className="w-20 lg:w-64 bg-card flex-col border-r border-border hidden md:flex">
-        <div className="flex items-center justify-center lg:justify-start lg:pl-4 h-20 border-b border-border">
+        <div className="flex items-center justify-center lg:justify-start lg:pl-4 h-16 border-b border-border">
           <Image
             src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
             alt="Skate's Garage Logo"
@@ -90,7 +90,7 @@ export default function SkatesGarageApp() {
       </aside>
 
       <div className="flex-1 flex flex-col overflow-hidden">
-        <header className="flex md:hidden items-center justify-center h-20 border-b border-border bg-card">
+        <header className="flex md:hidden items-center justify-center h-16 border-b border-border bg-card">
           <div className="flex items-center">
             <Image
               src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
