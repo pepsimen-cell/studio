@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Fatal Services",
-  description: "Announcements, status, and products from Fatal Services.",
+  description: "Fatal Services | Enhancement Tools",
 };
 
 export default function RootLayout({
