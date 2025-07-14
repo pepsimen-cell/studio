@@ -34,8 +34,8 @@ export default function SkatesGarageApp() {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const navItems = [
-    { id: "announcements", label: "Announcements", icon: Icons.announcements },
-    { id: "changelogs", label: "Changelogs", icon: Icons.changelogs },
+    { id: "announcements", label: "Annoucs", icon: Icons.announcements },
+    { id: "changelogs", label: "Changes", icon: Icons.changelogs },
     { id: "status", label: "Status", icon: Icons.status },
     { id: "products", label: "Products", icon: Icons.products },
   ];
