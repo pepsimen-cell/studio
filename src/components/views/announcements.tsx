@@ -14,17 +14,21 @@ export function AnnouncementsView() {
       <h1 className="text-2xl md:text-3xl font-bold">Announcements</h1>
       <Separator />
       <div className="space-y-6">
-        {announcements.map((announcement) => (
-          <Card key={announcement.id}>
-            <CardHeader>
-              <CardTitle>{announcement.title}</CardTitle>
-              <CardDescription>{announcement.date}</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-foreground/80">{announcement.content}</p>
-            </CardContent>
-          </Card>
-        ))}
+        {announcements.length > 0 ? (
+          announcements.map((announcement) => (
+            <Card key={announcement.id}>
+              <CardHeader>
+                <CardTitle>{announcement.title}</CardTitle>
+                <CardDescription>{announcement.date}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-foreground/80">{announcement.content}</p>
+              </CardContent>
+            </Card>
+          ))
+        ) : (
+          <p className="text-muted-foreground">No announcements have been posted yet.</p>
+        )}
       </div>
     </div>
   );

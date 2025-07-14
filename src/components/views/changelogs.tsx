@@ -41,7 +41,7 @@ export function ChangelogsView() {
               <AccordionContent>
                 <ul className="space-y-2 pl-4">
                   {log.changes.map((change, index) => (
-                    <li key={index} className="flex items-start gap-4">
+                    <li key={`${log.id}-${index}`} className="flex items-start gap-4">
                       <Badge variant={getBadgeVariant(change.type)} className="mt-1">
                         {change.type}
                       </Badge>
