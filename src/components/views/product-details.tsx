@@ -22,45 +22,47 @@ export function ProductDetailsView({
         </Button>
       </div>
 
-      <div className="relative aspect-video mb-6">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="rounded-lg object-cover"
-          data-ai-hint={product.dataAiHint}
-        />
+      <div className="flex-1 overflow-y-auto">
+        <div className="relative aspect-video mb-6">
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            className="rounded-lg object-cover"
+            data-ai-hint={product.dataAiHint}
+          />
+        </div>
+
+        <p className="text-muted-foreground mb-6">{product.description}</p>
+
+        <Separator className="mb-6" />
+
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold mb-4">Information</h3>
+          <ul className="space-y-4">
+            {product.features.map((feature, index) => {
+              const IconComponent = Icons[feature.icon];
+              return (
+                <li key={index} className="flex items-center gap-4">
+                  {IconComponent && (
+                    <IconComponent className="h-6 w-6 text-secondary" />
+                  )}
+                  <span>{feature.text}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        
+        <a
+          href="https://skatesgarage.cc/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6"
+        >
+          <Button className="w-full" size="lg">Buy Now</Button>
+        </a>
       </div>
-
-      <p className="text-muted-foreground mb-6">{product.description}</p>
-
-      <Separator className="mb-6" />
-
-      <div className="flex-1 overflow-y-auto mb-6">
-        <h3 className="text-lg font-semibold mb-4">Information</h3>
-        <ul className="space-y-4">
-          {product.features.map((feature, index) => {
-            const IconComponent = Icons[feature.icon];
-            return (
-              <li key={index} className="flex items-center gap-4">
-                {IconComponent && (
-                  <IconComponent className="h-6 w-6 text-secondary" />
-                )}
-                <span>{feature.text}</span>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-
-      <a
-        href="https://skatesgarage.cc/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-auto"
-      >
-        <Button className="w-full" size="lg">Buy Now</Button>
-      </a>
     </div>
   );
 }
