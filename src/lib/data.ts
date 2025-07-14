@@ -65,13 +65,18 @@ export const changelogs = [
 export const services = [
   { id: "service-1", name: "Fortnite DMA", status: "Online" as const },
   { id: "service-2", name: "Fortnite Private", status: "Online" as const },
+  { id: "service-3", name: "Fortnite Slotted", status: "Online" as const },
+  { id: "service-4", name: "BO6 Unlocker", status: "Maintenance" as const },
+  { id: "service-5", name: "BO6 External", status: "Online" as const },
+  { id: "service-6", name: "Kernel Unban", status: "Online" as const },
+  { id: "service-7", name: "Temp Unban", status: "Offline" as const },
   {
-    id: "service-3",
+    id: "service-8",
     name: "Authentication Server",
     status: "Online" as const,
   },
-  { id: "service-4", name: "Main Website", status: "Maintenance" as const },
-  { id: "service-5", name: "Discord Bots", status: "Offline" as const },
+  { id: "service-9", name: "Main Website", status: "Maintenance" as const },
+  { id: "service-10", name: "Discord Bots", status: "Offline" as const },
 ];
 
 export const products = [
@@ -109,6 +114,71 @@ export const products = [
         icon: "fingerprint" as keyof typeof Icons,
         text: "Built-in Anti-Cheat Bypass",
       },
+    ],
+  },
+  {
+    id: "prod-fortnite-slotted",
+    name: "Fortnite Slotted",
+    description: "Limited slot cheat for Fortnite, ensuring maximum privacy and security.",
+    image: "https://placehold.co/600x400.png",
+    dataAiHint: "fortnite game",
+    features: [
+      { icon: "shield" as keyof typeof Icons, text: "Exclusive Slot Access" },
+      { icon: "zap" as keyof typeof Icons, text: "High-Performance Aimbot & ESP" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Stealth Anti-Cheat Evasion" },
+      { icon: "cpu" as keyof typeof Icons, text: "Optimized for Low System Impact" },
+    ],
+  },
+  {
+    id: "prod-bo6-unlocker",
+    name: "BO6 Unlocker",
+    description: "Unlock all in-game items, camos, and operators in Black Ops 6 instantly.",
+    image: "https://placehold.co/600x400.png",
+    dataAiHint: "video game soldier",
+    features: [
+      { icon: "zap" as keyof typeof Icons, text: "Instant Unlock All" },
+      { icon: "shield" as keyof typeof Icons, text: "Safe & Secure Process" },
+      { icon: "cpu" as keyof typeof Icons, text: "Works for All Game Versions" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Undetectable by Game Client" },
+    ],
+  },
+  {
+    id: "prod-bo6-external",
+    name: "BO6 External",
+    description: "External cheat for Black Ops 6, focused on safety and ease of use.",
+    image: "https://placehold.co/600x400.png",
+    dataAiHint: "radar screen",
+    features: [
+      { icon: "shield" as keyof typeof Icons, text: "External Overlay ESP" },
+      { icon: "zap" as keyof typeof Icons, text: "Customizable Wallhacks" },
+      { icon: "cpu" as keyof typeof Icons, text: "Minimal Performance Impact" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Low Detection Risk" },
+    ],
+  },
+  {
+    id: "prod-kernel-unban",
+    name: "Kernel Unban",
+    description: "Permanent hardware ID unban solution using advanced kernel-level techniques.",
+    image: "https://placehold.co/600x400.png",
+    dataAiHint: "data unlock",
+    features: [
+      { icon: "cpu" as keyof typeof Icons, text: "Kernel-Level Spoofing" },
+      { icon: "shield" as keyof typeof Icons, text: "Permanent Ban Removal" },
+      { icon: "zap" as keyof typeof Icons, text: "Works on Major Anti-Cheats" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "One-Click Unban Process" },
+    ],
+  },
+  {
+    id: "prod-temp-unban",
+    name: "Temp Unban",
+    description: "Temporarily bypass your hardware ID ban to get back in the game quickly.",
+    image: "https://placehold.co/600x400.png",
+    dataAiHint: "timer clock",
+    features: [
+      { icon: "zap" as keyof typeof Icons, text: "Quick Temporary Unban" },
+      { icon: "cpu" as keyof typeof Icons, text: "Easy to Use Interface" },
+      { icon: "shield" as keyof typeof Icons, text: "Supports Multiple Games" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Effective Session-Based Spoof" },
     ],
   },
 ];
