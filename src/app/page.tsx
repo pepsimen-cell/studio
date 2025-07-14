@@ -15,7 +15,7 @@ import { X } from "lucide-react";
 
 type View = "announcements" | "changelogs" | "status" | "products";
 
-export default function SkatesGarageApp() {
+export default function FatalServicesApp() {
   const [view, setView] = useState<View>("announcements");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
@@ -92,15 +92,15 @@ export default function SkatesGarageApp() {
       <aside className="w-20 lg:w-64 bg-card flex-col border-r border-border hidden md:flex">
         <div className="flex items-center justify-center lg:justify-start lg:pl-4 h-14 border-b border-border">
           <Image
-            src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
-            alt="Skate's Garage Logo"
+            src="https://cdn.discordapp.com/icons/1394129470968828135/97bb635450786eed40063ef044813a55.png?size=1024"
+            alt="Fatal Services Logo"
             width={28}
             height={28}
             className="h-7 w-7"
             unoptimized
           />
           <h1 className="text-xl font-bold text-foreground hidden lg:block ml-2">
-            Skate's Garage
+            Fatal Services
           </h1>
         </div>
         <nav className="flex-1 p-2 lg:p-4 space-y-2">
@@ -122,15 +122,15 @@ export default function SkatesGarageApp() {
         <header className="fixed top-0 left-0 right-0 z-30 flex md:hidden items-center justify-center h-14 border-b border-border bg-card">
           <div className="flex items-center">
             <Image
-              src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
-              alt="Skate's Garage Logo"
+              src="https://cdn.discordapp.com/icons/1394129470968828135/97bb635450786eed40063ef044813a55.png?size=1024"
+              alt="Fatal Services Logo"
               width={28}
               height={28}
               className="h-7 w-7"
               unoptimized
             />
             <h1 className="text-xl font-bold text-foreground ml-2">
-              Skate's Garage
+              Fatal Services
             </h1>
           </div>
         </header>

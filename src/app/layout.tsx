@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Skates Garage",
-  description: "Announcements, status, and products from Skates Garage.",
+  title: "Fatal Services",
+  description: "Announcements, status, and products from Fatal Services.",
 };
 
 export default function RootLayout({
