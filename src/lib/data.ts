@@ -3,24 +3,10 @@ import type { Icons } from "@/components/icons";
 export const announcements = [
   {
     id: "announcement-1",
-    title: "New Product Launch!",
-    date: "2024-07-28",
+    title: "Welcome to Our New Website!",
+    date: "2024-07-29",
     content:
-      "We are thrilled to announce the launch of our new Fortnite Private cheat. It comes with advanced features and unparalleled security. Check it out in the products tab!",
-  },
-  {
-    id: "announcement-2",
-    title: "Scheduled Maintenance",
-    date: "2024-07-25",
-    content:
-      "All our services will be down for scheduled maintenance on July 30th from 2:00 AM to 4:00 AM UTC. We apologize for any inconvenience.",
-  },
-  {
-    id: "announcement-3",
-    title: "Discord Community Event",
-    date: "2024-07-20",
-    content:
-      "Join us for a community game night this Friday! Prizes include free subscriptions and exclusive roles. More details in the #events channel.",
+      "We are excited to launch our new official website. Here you can find product information, status updates, and announcements all in one place.",
   },
 ];
 
