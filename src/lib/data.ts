@@ -26,8 +26,7 @@ export const changelogs = [
 
 export const services = [
   { id: "service-2", name: "Fortnite Private", status: "Online" as const },
-  { id: "service-4", name: "BO6 Unlocker", status: "Online" as const },
-  { id: "service-5", name: "BO6 External", status: "Online" as const },
+  { id: "service-3", name: "Fortnite Slotted", status: "Online" as const },
   { id: "service-6", name: "Kernel Unban", status: "Online" as const },
   { id: "service-7", name: "Temp Unban", status: "Online" as const },
   {
@@ -60,31 +59,6 @@ export const products = [
       { icon: "shield" as keyof typeof Icons, text: "Slotted Access for Enhanced Security" },
       { icon: "fingerprint" as keyof typeof Icons, text: "Advanced Undetected Features" },
       { icon: "zap" as keyof typeof Icons, text: "Instant and Reliable Access" },
-    ],
-  },
-  {
-    id: "prod-bo6-unlocker",
-    name: "BO6 Unlocker",
-    description: "Unlock all in-game items, camos, and operators in Black Ops 6 instantly.",
-    image: "https://cdn.discordapp.com/attachments/1330236077843288145/1351629865404862484/box_1.gif?ex=6875fb27&is=6874a9a7&hm=db18afba6085714f992edaee0f4f419a37e712731c3ed2cabfe99e8d25f74041&",
-    dataAiHint: "video game soldier",
-    features: [
-      { icon: "wrench" as keyof typeof Icons, text: "Constantly Updated - Automatically Updates" },
-      { icon: "shield" as keyof typeof Icons, text: "Private & Secure - Encrypted Anonymity" },
-      { icon: "cpu" as keyof typeof Icons, text: "Kernel-level Security - Operates at the highest level" },
-    ],
-  },
-  {
-    id: "prod-bo6-external",
-    name: "BO6 External",
-    description: "External cheat for Black Ops 6, focused on safety and ease of use.",
-    image: "https://skatesgarage.cc/images/SkatesBO6External.png",
-    dataAiHint: "radar screen",
-    features: [
-      { icon: "wrench" as keyof typeof Icons, text: "Automatically Updates" },
-      { icon: "zap" as keyof typeof Icons, text: "Strongest External" },
-      { icon: "cpu" as keyof typeof Icons, text: "Kernel-level Security" },
-      { icon: "shield" as keyof typeof Icons, text: "Lightweight & Powerful" },
     ],
   },
   {
