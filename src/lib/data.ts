@@ -63,9 +63,7 @@ export const changelogs = [
 ];
 
 export const services = [
-  { id: "service-1", name: "Fortnite DMA", status: "Online" as const },
   { id: "service-2", name: "Fortnite Private", status: "Online" as const },
-  { id: "service-3", name: "Fortnite Slotted", status: "Online" as const },
   { id: "service-4", name: "BO6 Unlocker", status: "Maintenance" as const },
   { id: "service-5", name: "BO6 External", status: "Online" as const },
   { id: "service-6", name: "Kernel Unban", status: "Online" as const },
@@ -75,8 +73,6 @@ export const services = [
     name: "Authentication Server",
     status: "Online" as const,
   },
-  { id: "service-9", name: "Main Website", status: "Maintenance" as const },
-  { id: "service-10", name: "Discord Bots", status: "Offline" as const },
 ];
 
 export const products = [
