@@ -27,8 +27,8 @@ export const changelogs = [
 export const services = [
   { id: "service-2", name: "Fortnite Private", status: "Online" as const },
   { id: "service-3", name: "Fortnite Slotted", status: "Online" as const },
-  { id: "service-6", name: "Kernel Unban", status: "Online" as const },
-  { id: "service-7", name: "Temp Unban", status: "Online" as const },
+  { id: "service-6", name: "Permanent Spoofer", status: "Online" as const },
+  { id: "service-7", name: "Temp Spoofer", status: "Online" as const },
   {
     id: "service-8",
     name: "Authentication Server",
@@ -70,7 +70,7 @@ export const products = [
   },
   {
     id: "prod-kernel-unban",
-    name: "Perm Spoofer",
+    name: "Permanent Spoofer",
     description: "Permanently bypass your HWID ban.",
     image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224089258004571/image.png?ex=687607de&is=6874b65e&hm=fe2baca493a2c6c39b09b416a3ed7156fbe1987bae5d33722178e34cb8e5c872&",
     dataAiHint: "data unlock",
