@@ -40,7 +40,7 @@ export const products = [
   {
     id: "prod-private",
     name: "Fortnite Private",
-    description: "Essential details about our flagship private solution.",
+    description: "Essential details about our Fortnite Private",
     image: "https://cdn.discordapp.com/attachments/1394207576505454713/1394224088641441873/image.png?ex=687607de&is=6874b65e&hm=c13aaea389c3f36fa460ad94ec65fa1a91ed09e35a3239ae98ed0ca40983e166&",
     dataAiHint: "abstract tech",
     features: [
@@ -52,7 +52,7 @@ export const products = [
   {
     id: "prod-fortnite-slotted",
     name: "Fortnite Slotted",
-    description: "Gain a competitive edge with our limited-slot Fortnite solution.",
+    description: "Gain a competitive advantage with our Fortnite Slotted",
     image: "https://media.discordapp.net/attachments/1394207576505454713/1394224089685819422/image.png?ex=687607de&is=6874b65e&hm=cceb7c17d641a9813e41724cf27239457df2fa8e9c3b2fa135294649c3e00311&=&format=webp&quality=lossless",
     dataAiHint: "abstract technology",
     features: [
