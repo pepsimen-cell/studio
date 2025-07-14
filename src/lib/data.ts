@@ -133,7 +133,7 @@ export const products = [
     id: "prod-bo6-unlocker",
     name: "BO6 Unlocker",
     description: "Unlock all in-game items, camos, and operators in Black Ops 6 instantly.",
-    image: "https://placehold.co/600x400.png",
+    image: "https://cdn.discordapp.com/attachments/1330236077843288145/1351629865404862484/box_1.gif?ex=6875fb27&is=6874a9a7&hm=db18afba6085714f992edaee0f4f419a37e712731c3ed2cabfe99e8d25f74041&",
     dataAiHint: "video game soldier",
     features: [
       { icon: "zap" as keyof typeof Icons, text: "Instant Unlock All" },
