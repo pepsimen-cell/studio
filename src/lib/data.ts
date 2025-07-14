@@ -64,10 +64,10 @@ export const changelogs = [
 
 export const services = [
   { id: "service-2", name: "Fortnite Private", status: "Online" as const },
-  { id: "service-4", name: "BO6 Unlocker", status: "Maintenance" as const },
+  { id: "service-4", name: "BO6 Unlocker", status: "Online" as const },
   { id: "service-5", name: "BO6 External", status: "Online" as const },
   { id: "service-6", name: "Kernel Unban", status: "Online" as const },
-  { id: "service-7", name: "Temp Unban", status: "Offline" as const },
+  { id: "service-7", name: "Temp Unban", status: "Online" as const },
   {
     id: "service-8",
     name: "Authentication Server",
