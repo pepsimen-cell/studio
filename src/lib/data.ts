@@ -12,6 +12,17 @@ export const announcements = [
 
 export const changelogs = [
   {
+    id: "changelog-2",
+    version: "v1.1.0",
+    date: "2025-07-14",
+    changes: [
+      {
+        type: "Improved",
+        description: "Authentication server is currently under maintenance for upgrades.",
+      },
+    ],
+  },
+  {
     id: "changelog-1",
     version: "v1.0.0",
     date: "2025-07-14",
