@@ -69,10 +69,10 @@ export const products = [
     image: "https://skatesgarage.cc/images/SkatesBO6External.png",
     dataAiHint: "radar screen",
     features: [
-      { icon: "wrench" as keyof typeof Icons, text: "Constantly Updated - Automatically Updates" },
-      { icon: "zap" as keyof typeof Icons, text: "Powerful Chair - Strongest External" },
-      { icon: "cpu" as keyof typeof Icons, text: "Kernel-level Security - Operates at the highest level" },
-      { icon: "shield" as keyof typeof Icons, text: "Lightweight & Powerful - The Swiss Knife for cheating" },
+      { icon: "wrench" as keyof typeof Icons, text: "Automatically Updates" },
+      { icon: "zap" as keyof typeof Icons, text: "Strongest External" },
+      { icon: "cpu" as keyof typeof Icons, text: "Kernel-level Security" },
+      { icon: "shield" as keyof typeof Icons, text: "Lightweight & Powerful" },
     ],
   },
   {
