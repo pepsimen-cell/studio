@@ -6,7 +6,7 @@ export const announcements = [
     title: "Welcome to Our New Website!",
     date: "2025-07-14",
     content:
-      "We are excited to launch our new official website. Here you can find product information, status updates, and announcements all in one place.",
+      "Welcome to the official hub for Fatal Services. Your source for all our product information, service status, and the latest news.",
   },
 ];
 
