@@ -130,3 +130,5 @@ export const products = [
 ];
 
 export type Product = (typeof products)[0];
+export type Announcement = (typeof announcements)[0];
+export type Changelog = (typeof changelogs)[0];

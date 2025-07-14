@@ -1,4 +1,4 @@
-import { changelogs } from "@/lib/data";
+import { getChangelogs } from "@/ai/flows/changelogs-flow";
 import {
   Accordion,
   AccordionContent,
@@ -8,7 +8,9 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "../ui/separator";
 
-export function ChangelogsView() {
+export async function ChangelogsView() {
+  const { changelogs } = await getChangelogs();
+  
   const getBadgeVariant = (
     type: string
   ): "default" | "secondary" | "destructive" | "outline" => {
@@ -28,7 +30,7 @@ export function ChangelogsView() {
     <div className="space-y-8">
       <h1 className="text-3xl font-bold">Changelogs</h1>
       <Separator />
-      <Accordion type="single" collapsible defaultValue="changelog-1">
+      <Accordion type="single" collapsible defaultValue={changelogs[0]?.id}>
         {changelogs.map((log) => (
           <AccordionItem key={log.id} value={log.id}>
             <AccordionTrigger className="text-lg">
