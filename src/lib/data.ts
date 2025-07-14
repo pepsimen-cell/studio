@@ -45,13 +45,14 @@ export const products = [
     image: "https://skatesgarage.cc/images/fortnite%20private.png",
     dataAiHint: "abstract tech",
     features: [
-      { icon: "shield" as keyof typeof Icons, text: "Advanced Aimbot" },
-      { icon: "zap" as keyof typeof Icons, text: "Player & Item ESP" },
-      { icon: "cpu" as keyof typeof Icons, text: "Full Skin Changer" },
-      {
-        icon: "fingerprint" as keyof typeof Icons,
-        text: "Built-in Anti-Cheat Bypass",
-      },
+      { icon: "shield" as keyof typeof Icons, text: "Easy & Detailed Setup" },
+      { icon: "shield" as keyof typeof Icons, text: "Strict Invite-Only Access" },
+      { icon: "shield" as keyof typeof Icons, text: "Advanced Encryption" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Dynamic Injection Method" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Kernel-Level Security" },
+      { icon: "zap" as keyof typeof Icons, text: "Affordable Plans" },
+      { icon: "zap" as keyof typeof Icons, text: "Spontaneous Delivery" },
+      { icon: "zap" as keyof typeof Icons, text: "Multiple Secure Payments" },
     ],
   },
   {
