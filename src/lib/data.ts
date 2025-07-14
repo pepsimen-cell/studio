@@ -48,7 +48,7 @@ export const products = [
       { icon: "wrench" as keyof typeof Icons, text: "Adjustable Smoothing" },
       { icon: "fingerprint" as keyof typeof Icons, text: "Comprehensive Player ESP" },
       { icon: "cpu" as keyof typeof Icons, text: "Customizable ESP Colors" },
-      { icon: "package" as keyof typeof Icons, text: "...and many more powerful features" },
+      { icon: "wrench" as keyof typeof Icons, text: "...and many more powerful features" },
     ],
   },
   {
