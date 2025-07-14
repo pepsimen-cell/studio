@@ -144,7 +144,7 @@ export default function SkatesGarageApp() {
 
           <aside
             className={cn(
-              "w-full max-w-full md:max-w-md lg:max-w-lg bg-card border-l border-border transition-transform duration-300 ease-in-out overflow-y-auto absolute md:static inset-0 z-20",
+              "w-full max-w-full md:max-w-md lg:max-w-lg bg-card border-l border-border transition-transform duration-300 ease-in-out absolute md:static inset-0 z-20",
               selectedProduct ? "translate-x-0" : "translate-x-full"
             )}
             onTouchStart={handleTouchStart}
