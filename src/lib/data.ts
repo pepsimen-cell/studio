@@ -32,7 +32,7 @@ export const services = [
   {
     id: "service-8",
     name: "Authentication Server",
-    status: "Online" as const,
+    status: "Maintenance" as const,
   },
 ];
 
