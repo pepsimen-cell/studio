@@ -14,8 +14,8 @@ export function AnnouncementsView() {
       <h1 className="text-2xl md:text-3xl font-bold">Announcements</h1>
       <Separator />
       <div className="space-y-6">
-        {announcements.map((announcement, index) => (
-          <Card key={index}>
+        {announcements.map((announcement) => (
+          <Card key={announcement.id}>
             <CardHeader>
               <CardTitle>{announcement.title}</CardTitle>
               <CardDescription>{announcement.date}</CardDescription>
