@@ -45,12 +45,9 @@ export const products = [
     image: "https://skatesgarage.cc/images/fortnite%20private.png",
     dataAiHint: "abstract tech",
     features: [
-      { icon: "shield" as keyof typeof Icons, text: "Strict Invite-Only Access" },
-      { icon: "shield" as keyof typeof Icons, text: "Advanced Encryption" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Dynamic Injection Method" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Kernel-Level Security" },
-      { icon: "zap" as keyof typeof Icons, text: "Affordable Plans" },
-      { icon: "zap" as keyof typeof Icons, text: "Spontaneous Delivery" },
+      { icon: "shield" as keyof typeof Icons, text: "Private & Secure - Strict Invite-Only Access & Advanced Encryption" },
+      { icon: "fingerprint" as keyof typeof Icons, text: "Undetectable Technology - Dynamic Injection Method & Kernel-Level Security" },
+      { icon: "zap" as keyof typeof Icons, text: "Pricing & Access - Affordable Plans & Spontaneous Delivery" },
     ],
   },
   {
@@ -72,10 +69,10 @@ export const products = [
     image: "https://skatesgarage.cc/images/SkatesBO6External.png",
     dataAiHint: "radar screen",
     features: [
-      { icon: "shield" as keyof typeof Icons, text: "External Overlay ESP" },
-      { icon: "zap" as keyof typeof Icons, text: "Customizable Wallhacks" },
-      { icon: "cpu" as keyof typeof Icons, text: "Minimal Performance Impact" },
-      { icon: "fingerprint" as keyof typeof Icons, text: "Low Detection Risk" },
+      { icon: "wrench" as keyof typeof Icons, text: "Constantly Updated - Automatically Updates - Never left behind" },
+      { icon: "zap" as keyof typeof Icons, text: "Powerful Chair - Strongest External - Has features you'd only see in a Internal" },
+      { icon: "cpu" as keyof typeof Icons, text: "Kernel-level Security - Operates at the highest level" },
+      { icon: "shield" as keyof typeof Icons, text: "Lightweight & Powerful - The Swiss Knife for cheating" },
     ],
   },
   {
