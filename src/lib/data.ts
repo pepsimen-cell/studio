@@ -3,7 +3,7 @@ import type { Icons } from "@/components/icons";
 export const announcements = [
   {
     id: "announcement-1",
-    title: "Welcome to Our New Website!",
+    title: "Welcome!",
     date: "2025-07-14",
     content:
       "Welcome to the official hub for Fatal Services.",
