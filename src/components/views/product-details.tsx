@@ -37,7 +37,7 @@ export function ProductDetailsView({
       <Separator className="mb-6" />
 
       <h3 className="text-lg font-semibold mb-4">Features</h3>
-      <ul className="space-y-4">
+      <ul className="space-y-4 mb-6">
         {product.features.map((feature, index) => {
           const IconComponent = Icons[feature.icon];
           return (
