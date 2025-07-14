@@ -36,10 +36,10 @@ export const changelogs = [
 ];
 
 export const services = [
-  { id: "service-2", name: "Fortnite Private", status: "Online" as const },
-  { id: "service-3", name: "Fortnite Slotted", status: "Online" as const },
-  { id: "service-6", name: "Permanent Spoofer", status: "Online" as const },
-  { id: "service-7", name: "Temp Spoofer", status: "Online" as const },
+  { id: "service-2", name: "Fortnite Private", status: "Maintenance" as const },
+  { id: "service-3", name: "Fortnite Slotted", status: "Maintenance" as const },
+  { id: "service-6", name: "Permanent Spoofer", status: "Maintenance" as const },
+  { id: "service-7", name: "Temp Spoofer", status: "Maintenance" as const },
   {
     id: "service-8",
     name: "Authentication Server",
