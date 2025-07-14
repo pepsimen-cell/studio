@@ -97,6 +97,12 @@ export default function SkatesGarageApp() {
       </aside>
 
       <div className="flex-1 flex flex-col overflow-hidden">
+        <header className="flex md:hidden items-center justify-center h-20 border-b border-border bg-card">
+          <div className="flex items-center">
+            <SkateIcon />
+            <h1 className="text-2xl font-bold text-primary ml-2">Skates</h1>
+          </div>
+        </header>
         <main className="flex-1 flex overflow-hidden relative">
           <div className="flex-1 overflow-y-auto p-4 md:p-8">
             <CurrentView />
