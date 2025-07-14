@@ -11,7 +11,7 @@ import { announcements } from "@/lib/data";
 export function AnnouncementsView() {
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-bold">Announcements</h1>
+      <h1 className="text-2xl md:text-3xl font-bold">Announcements</h1>
       <Separator />
       <div className="space-y-6">
         {announcements.map((announcement, index) => (

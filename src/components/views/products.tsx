@@ -18,7 +18,7 @@ interface ProductsViewProps {
 export function ProductsView({ onProductSelect, selectedProductId }: ProductsViewProps) {
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-bold">Our Products</h1>
+      <h1 className="text-2xl md:text-3xl font-bold">Our Products</h1>
       <Separator />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
         {products.map((product) => (

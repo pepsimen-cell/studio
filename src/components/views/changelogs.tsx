@@ -26,7 +26,7 @@ export function ChangelogsView() {
 
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-bold">Changelogs</h1>
+      <h1 className="text-2xl md:text-3xl font-bold">Changelogs</h1>
       <Separator />
       <Accordion type="single" collapsible defaultValue={changelogs[0]?.id}>
         {changelogs.map((log) => (

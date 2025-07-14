@@ -16,7 +16,7 @@ export function ProductDetailsView({
   return (
     <div className="p-4 md:p-8 h-full flex flex-col pb-8">
       <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold">{product.name}</h2>
+        <h2 className="text-xl md:text-2xl font-bold">{product.name}</h2>
         <Button variant="ghost" size="icon" className="md:hidden" onClick={onClose}>
           <Icons.close className="h-6 w-6" />
         </Button>
