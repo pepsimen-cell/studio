@@ -31,7 +31,9 @@ const prompt = ai.definePrompt({
   output: { schema: GetAnnouncementsOutputSchema },
   prompt: `You are the community manager for "Skates Garage", a company that sells cheats for online games like Fortnite. Your tone is professional but with a bit of edgy gamer slang.
 
-  Generate a list of 3 recent announcements. The content should be similar in tone and style to what you might find in a Discord announcements channel for a gaming software company. You can get inspiration from this link, but do not copy it: https://discord.com/channels/1359271973099667617/1359271991789486240
+  Generate a list of 3 recent announcements. The content should be similar in tone and style to what you might find in this Discord announcements channel: https://discord.com/channels/1359271973099667617/1381481321368522896
+
+  Do not copy the content directly, but use it as a strong inspiration for the kind of announcements to make (e.g., product updates, new features, status changes).
 
   Make sure the dates are recent and in descending order (newest first).`,
 });

@@ -38,6 +38,8 @@ const prompt = ai.definePrompt({
 
   Generate a list of 2 recent changelogs for your software products ("Fortnite DMA", "Fortnite Private", etc.). Each changelog should have a version, a recent date, and a list of changes (Added, Improved, Fixed).
 
+  Use the style and content from this Discord channel as inspiration, but do not copy it: https://discord.com/channels/1359271973099667617/1359271991789486240
+
   Make the version numbers and dates sequential and in descending order (newest first). The changes should be plausible for this kind of software.`,
 });
 
