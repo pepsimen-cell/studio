@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import type { Product } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -13,21 +14,6 @@ import { ProductDetailsView } from "@/components/views/product-details";
 import { X } from "lucide-react";
 
 type View = "announcements" | "changelogs" | "status" | "products";
-
-const SkateIcon = () => (
-  <svg
-    role="img"
-    viewBox="0 0 24 24"
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-primary"
-  >
-    <title>Skates</title>
-    <path
-      d="M21.92 15.619c-1.808.2-3.468.99-4.838 2.36-1.369 1.36-2.159 3.03-2.36 4.838h-2.31c.2-2.169 1.15-4.178 2.65-5.678s3.509-2.45 5.678-2.65v1.13zm-10.12-3.15c.629.56 1.349 1.01 2.139 1.33V15.5c-1.129-.4-2.169-1.04-3.049-1.92-1.3-1.28-2.21-2.9-2.58-4.72H2.21c.02.09.04.18.06.27.429 1.838 1.359 3.468 2.729 4.798s3.119 2.22 4.989 2.5v2.31c-2.24-.28-4.3-1.29-5.99-2.98S.41 9.249.4 6.999h1.13c.24 2.11 1.25 4.02 2.89 5.48zM6.9 3.399c2.25-.28 4.3-1.29 6-2.98L12 .009l-1.1.41C8.61 2.699 6.27 4.149 3.82 4.149c-1.32 0-2.5-.56-3.37-1.4L-.01 2.289l.39.59c.98 1.48 2.45 2.56 4.14 3.05v2.3h2.31l.07-4.83zm13.12 6.01c.21-1.639-.16-3.3-1.02-4.7-1.3-2.098-3.33-3.518-5.71-4.238v-2.2H11v2.31c2.17.28 4.18 1.29 5.68 2.98s2.32 3.82 2.32 6.13v1.13c.27-.02.54-.04.82-.07z"
-      fill="currentColor"
-    />
-  </svg>
-);
 
 export default function SkatesGarageApp() {
   const [view, setView] = useState<View>("announcements");
@@ -75,10 +61,17 @@ export default function SkatesGarageApp() {
   return (
     <div className="flex h-screen w-full overflow-hidden">
       <aside className="w-20 lg:w-64 bg-card flex-col border-r border-border hidden md:flex">
-        <div className="flex items-center justify-center lg:justify-start lg:pl-8 h-20 border-b border-border">
-          <SkateIcon />
+        <div className="flex items-center justify-center lg:justify-start lg:pl-4 h-20 border-b border-border">
+          <Image
+            src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
+            alt="Skate's Garage Logo"
+            width={32}
+            height={32}
+            className="h-8 w-8"
+            unoptimized
+          />
           <h1 className="text-2xl font-bold text-primary hidden lg:block ml-2">
-            Skates
+            Skate's Garage
           </h1>
         </div>
         <nav className="flex-1 p-2 lg:p-4 space-y-2">
@@ -99,12 +92,21 @@ export default function SkatesGarageApp() {
       <div className="flex-1 flex flex-col overflow-hidden">
         <header className="flex md:hidden items-center justify-center h-20 border-b border-border bg-card">
           <div className="flex items-center">
-            <SkateIcon />
-            <h1 className="text-2xl font-bold text-primary ml-2">Skates</h1>
+            <Image
+              src="https://cdn.discordapp.com/icons/1359271973099667617/a_0829847c5bd8ae1ffd4929f9cd88a4c1.gif?size=1024"
+              alt="Skate's Garage Logo"
+              width={32}
+              height={32}
+              className="h-8 w-8"
+              unoptimized
+            />
+            <h1 className="text-2xl font-bold text-primary ml-2">
+              Skate's Garage
+            </h1>
           </div>
         </header>
         <main className="flex-1 flex overflow-hidden relative">
-          <div className="flex-1 overflow-y-auto p-4 md:p-8">
+          <div className="flex-1 overflow-y-auto p-4 md:p-8 pb-24">
             <CurrentView />
           </div>
 
