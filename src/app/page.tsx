@@ -18,6 +18,8 @@ type View = "announcements" | "changelogs" | "status" | "products";
 export default function SkatesGarageApp() {
   const [view, setView] = useState<View>("announcements");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  const [touchMoveX, setTouchMoveX] = useState<number | null>(null);
 
   const navItems = [
     { id: "announcements", label: "Annoucs", icon: Icons.announcements },
@@ -37,6 +39,33 @@ export default function SkatesGarageApp() {
       setSelectedProduct(null);
     }
   };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStartX(e.targetTouches[0].clientX);
+    setTouchMoveX(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchMoveX(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (touchStartX === null || touchMoveX === null) {
+      return;
+    }
+
+    const swipeDistance = touchMoveX - touchStartX;
+    const minSwipeDistance = 75; // Minimum distance for a swipe to be registered
+
+    if (swipeDistance > minSwipeDistance) {
+      setSelectedProduct(null);
+    }
+
+    // Reset touch coordinates
+    setTouchStartX(null);
+    setTouchMoveX(null);
+  };
+
 
   const CurrentView = () => {
     switch (view) {
@@ -118,6 +147,9 @@ export default function SkatesGarageApp() {
               "w-full max-w-full md:max-w-md lg:max-w-lg bg-card border-l border-border transition-transform duration-300 ease-in-out overflow-y-auto absolute md:static inset-0 z-20",
               selectedProduct ? "translate-x-0" : "translate-x-full"
             )}
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
           >
             {selectedProduct && (
               <div className="fade-in-up">
