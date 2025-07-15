@@ -13,6 +13,17 @@ export const announcements = [
 export const changelogs = [
   {
     id: "changelog-2",
+    version: "v1.1.1",
+    date: "2025-07-15",
+    changes: [
+      {
+        type: "Improved",
+        description: "Fortnite Slotted, Perm, Temp are currently under maintenance.",
+      },
+    ],
+  },
+  {
+    id: "changelog-2",
     version: "v1.1.0",
     date: "2025-07-14",
     changes: [
